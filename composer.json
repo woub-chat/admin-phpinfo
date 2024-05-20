@@ -1,18 +1,13 @@
 {
-    "name": "bfg/admin-phpinfo",
-    "description": "Show php information in bfg admin",
-    "type": "bfg-admin-extension",
-    "keywords": ["laravel", "bfg", "lte", "admin", "extension", "admin-phpinfo"],
+    "name": "woub-chat/admin-phpinfo",
+    "description": "Show php information in woub admin",
+    "type": "admin-extension",
+    "keywords": ["laravel", "lte", "admin", "extension", "admin-phpinfo"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "bfg"
-        }
-    ],
     "prefer-stable": true,
     "require": {
         "php": "^8.0|^8.1",
-        "bfg/admin": "^5.3.8"
+        "woub-chat/admin": "5.5.6.*"
     },
     "require-dev": {},
     "autoload": {
